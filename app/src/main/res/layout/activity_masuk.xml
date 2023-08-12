@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"/>
+
+        <TextView
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/biru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HKBP Palmarum Tarutung"/>
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:layout_width="390dp"
+            android:layout_height="192dp"
+            android:src="@drawable/hkbp" />
+        
+        <Button
+            android:id="@+id/btn_prosesLogin"
+            android:background="@color/biru"
+            android:layout_marginTop="25dp"
+            android:layout_width="150dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="Masuk"/>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Daftar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
